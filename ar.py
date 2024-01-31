@@ -132,7 +132,7 @@ user=[];ok=[];cp=[];twf=[];cpx=[];cokix=[];plist=[];loop=0
 oks=[]
 cps=[]
 loop=0
-folder_path = '/sdcard/TCS'
+folder_path = '/sdcard/ARIF'
 try:
     os.makedirs(folder_path, exist_ok=True)
 except:
@@ -148,7 +148,7 @@ logo = f"""
   / ____ \| | \ \ _| |_| |       / . \  | |__| | |____ ____) | |  | |_| |_| |\  |
  /_/    \_\_|  \_\_____|_|      /_/ \_\  \____/|______|_____/|_|  |_|_____|_| \_|                                                                             
 \x1b[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-\x1b[38;5;196m[\x1b[1;97m≣\x1b[38;5;196m]\033[38;5;46mOWONER     \x1b[1;97m● \033[38;5;46mTCS-CYBER-404
+\x1b[38;5;196m[\x1b[1;97m≣\x1b[38;5;196m]\033[38;5;46mOWONER     \x1b[1;97m● \033[38;5;46mARIF-CYBER-143
 \x1b[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"""
 #-----------------------[ CLEAR-CODE ]-----------------------#
 def fresh():os.system('clear');print(logo)
