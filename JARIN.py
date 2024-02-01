@@ -350,7 +350,7 @@ def api3(ids,names,passlist):
             fbav = f'{random.randint(111,999)}.0.0.{random.randint(11,99)}.{random.randint(111,999)}'
             fbbv = str(random.randint(000000000,999999999))
             accees_token = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
-            uaddx = f'[lFBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/75.0.0.5078;FBBV/3775548;FBDM/{density=],width=720,height=1280};FBLC/en_US;FBRV/3807887;FBCR/null;FBMF/OnePlus;FBBD/OnePlus;FBPN/com.facebook.lite;FBDV/6;FBSV/5.1.1;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
+            uaddx = f'[lFBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/91.0.0.6339;FBBV/2825202;FBDM/{density=,,width=720,height=1280};FBLC/en_US;FBRV/4758209;FBCR/null;FBMF/Symphony;FBBD/Symphony;FBPN/com.facebook.adsmanager;FBDV/Z25;FBSV/5.1.1;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
             head = {'User-Agent':uaddx,
             'Accept-Encoding':'gzip, deflate',
             'Connection':'close',
